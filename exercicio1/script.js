@@ -1,12 +1,12 @@
-// Resposta A:
-const numeroPar = prompt ("Digite um número par")
+// Peça ao usuário que insira um número **par**
+let numeroPar = +prompt ("Digite um número par")
 
-//Resposta B:
-const restoDivisao = numeroPar %2
+//Imprima no console **o resto da divisão** desse número por 2.
+// O simbolo % significa o resto da divisão, TRUE caso o resto seja 0
+const restoDivisao = numeroPar % 2
+//Teste o programa com diversos números pares.
 console.log ("Resto da divisão é:", restoDivisao)
+//Você notou um padrão? Todos dão ZERO 
 
-//Resposta C:
-// A resposta sempre será 0 parao resto da divisão
+//O que acontece no console se o usuário inserir um número ímpar? O resto da divisão tera como resultado 1 
 
-//Resposta D:
-//A resposta passa a ser  1 para o resto da divisão
